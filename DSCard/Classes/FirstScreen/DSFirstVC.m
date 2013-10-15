@@ -6,7 +6,7 @@
 //  Copyright (c) 2013 Wei Jin. All rights reserved.
 //
 
-#define kOFFSET_FOR_KEYBOARD 120.0
+#define kOFFSET_FOR_KEYBOARD 180.0
 
 #import "DSFirstVC.h"
 #import "DSView.h"
