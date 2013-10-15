@@ -15,6 +15,7 @@
 {
     DSView *viewDelegate;
     
+    // current textfield in editing
     UITextField *currentText;
 }
 

@@ -17,7 +17,7 @@
 @implementation DSFirstVC
 
 // ---------------------------------------------------------------------------------------
-// initWithView - Initialize the first screen
+// initWithView - Initialize the first screen  
 // ---------------------------------------------------------------------------------------
 - (id) initWithView:(DSView *)delegate
 {
