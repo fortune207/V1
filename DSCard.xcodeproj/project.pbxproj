@@ -1,0 +1,648 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2A28E86D1809A6E100F24E81 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A28E86C1809A6E100F24E81 /* Foundation.framework */; };
+		2A28E86F1809A6E100F24E81 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A28E86E1809A6E100F24E81 /* CoreGraphics.framework */; };
+		2A28E8711809A6E100F24E81 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A28E8701809A6E100F24E81 /* UIKit.framework */; };
+		2A28E8771809A6E100F24E81 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2A28E8751809A6E100F24E81 /* InfoPlist.strings */; };
+		2A28E8791809A6E100F24E81 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A28E8781809A6E100F24E81 /* main.m */; };
+		2A28E87D1809A6E100F24E81 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A28E87C1809A6E100F24E81 /* AppDelegate.m */; };
+		2A28E87F1809A6E100F24E81 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2A28E87E1809A6E100F24E81 /* Images.xcassets */; };
+		2A28E8861809A6E100F24E81 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A28E8851809A6E100F24E81 /* XCTest.framework */; };
+		2A28E8871809A6E100F24E81 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A28E86C1809A6E100F24E81 /* Foundation.framework */; };
+		2A28E8881809A6E100F24E81 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A28E8701809A6E100F24E81 /* UIKit.framework */; };
+		2A28E8901809A6E100F24E81 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2A28E88E1809A6E100F24E81 /* InfoPlist.strings */; };
+		2A28E8921809A6E100F24E81 /* DSCardTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A28E8911809A6E100F24E81 /* DSCardTests.m */; };
+		2A28E8A11809A8A800F24E81 /* DSModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A28E8A01809A8A800F24E81 /* DSModel.m */; };
+		2A28E8A41809A8CF00F24E81 /* DSData.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A28E8A31809A8CF00F24E81 /* DSData.m */; };
+		2A28E8A71809A92400F24E81 /* DSView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A28E8A61809A92400F24E81 /* DSView.m */; };
+		2A28E8AC1809C46400F24E81 /* DSFirstVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A28E8AA1809C46400F24E81 /* DSFirstVC.m */; };
+		2A28E8AD1809C46400F24E81 /* DSFirstVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2A28E8AB1809C46400F24E81 /* DSFirstVC.xib */; };
+		2A28E8B21809D41500F24E81 /* DSLoginVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A28E8B01809D41400F24E81 /* DSLoginVC.m */; };
+		2A28E8B31809D41500F24E81 /* DSLoginVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2A28E8B11809D41500F24E81 /* DSLoginVC.xib */; };
+		2A28E8B51809E28C00F24E81 /* gear.png in Resources */ = {isa = PBXBuildFile; fileRef = 2A28E8B41809E28C00F24E81 /* gear.png */; };
+		2A28E8B71809E30700F24E81 /* DSCard-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2A28E8B61809E30700F24E81 /* DSCard-Info.plist */; };
+		2A55629C180BF67D0020D287 /* DSFirstVC_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2A55629B180BF67D0020D287 /* DSFirstVC_iPad.xib */; };
+		2A55629E180C00C40020D287 /* DSLoginVC_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2A55629D180C00C40020D287 /* DSLoginVC_iPad.xib */; };
+		2A884F42180BB6420032815C /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 2A884F41180BB6420032815C /* Settings.bundle */; };
+		2AFD6F58180A75770059AF11 /* MyriadPro-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 2AFD6F4E180A75770059AF11 /* MyriadPro-Bold.otf */; };
+		2AFD6F59180A75770059AF11 /* MyriadPro-BoldCond.otf in Resources */ = {isa = PBXBuildFile; fileRef = 2AFD6F4F180A75770059AF11 /* MyriadPro-BoldCond.otf */; };
+		2AFD6F5A180A75770059AF11 /* MyriadPro-BoldCondIt.otf in Resources */ = {isa = PBXBuildFile; fileRef = 2AFD6F50180A75770059AF11 /* MyriadPro-BoldCondIt.otf */; };
+		2AFD6F5B180A75770059AF11 /* MyriadPro-BoldIt.otf in Resources */ = {isa = PBXBuildFile; fileRef = 2AFD6F51180A75770059AF11 /* MyriadPro-BoldIt.otf */; };
+		2AFD6F5C180A75770059AF11 /* MyriadPro-Cond.otf in Resources */ = {isa = PBXBuildFile; fileRef = 2AFD6F52180A75770059AF11 /* MyriadPro-Cond.otf */; };
+		2AFD6F5D180A75770059AF11 /* MyriadPro-CondIt.otf in Resources */ = {isa = PBXBuildFile; fileRef = 2AFD6F53180A75770059AF11 /* MyriadPro-CondIt.otf */; };
+		2AFD6F5E180A75770059AF11 /* MyriadPro-It.otf in Resources */ = {isa = PBXBuildFile; fileRef = 2AFD6F54180A75770059AF11 /* MyriadPro-It.otf */; };
+		2AFD6F5F180A75770059AF11 /* MyriadPro-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 2AFD6F55180A75770059AF11 /* MyriadPro-Regular.otf */; };
+		2AFD6F60180A75770059AF11 /* MyriadPro-Semibold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 2AFD6F56180A75770059AF11 /* MyriadPro-Semibold.otf */; };
+		2AFD6F61180A75770059AF11 /* MyriadPro-SemiboldIt.otf in Resources */ = {isa = PBXBuildFile; fileRef = 2AFD6F57180A75770059AF11 /* MyriadPro-SemiboldIt.otf */; };
+		2AFD6F63180AA0180059AF11 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2AFD6F62180AA0180059AF11 /* CFNetwork.framework */; };
+		2AFD6F66180AA0F50059AF11 /* DSAppState.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AFD6F65180AA0F50059AF11 /* DSAppState.m */; };
+		2AFD6F69180AD4050059AF11 /* DSModel+Auth.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AFD6F68180AD4050059AF11 /* DSModel+Auth.m */; };
+		AEEED1F1180C7E7F002A298B /* DSFirstVC_Retina35.xib in Resources */ = {isa = PBXBuildFile; fileRef = AEEED1F0180C7E7F002A298B /* DSFirstVC_Retina35.xib */; };
+		AEEED1F5180C8877002A298B /* DSLoginVC_Retina35.xib in Resources */ = {isa = PBXBuildFile; fileRef = AEEED1F4180C8877002A298B /* DSLoginVC_Retina35.xib */; };
+		D136E3D8180B4F3D001E555B /* Icon120.png in Resources */ = {isa = PBXBuildFile; fileRef = D136E3D7180B4F3D001E555B /* Icon120.png */; };
+		D136E3DB180B4F86001E555B /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D136E3D9180B4F86001E555B /* Default-568h@2x.png */; };
+		D136E3DC180B4F86001E555B /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = D136E3DA180B4F86001E555B /* Default.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2A28E8891809A6E100F24E81 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2A28E8611809A6E100F24E81 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2A28E8681809A6E100F24E81;
+			remoteInfo = DSCard;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2A28E8691809A6E100F24E81 /* DSCard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DSCard.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A28E86C1809A6E100F24E81 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		2A28E86E1809A6E100F24E81 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		2A28E8701809A6E100F24E81 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		2A28E8761809A6E100F24E81 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		2A28E8781809A6E100F24E81 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = main.m; path = DSCard/main.m; sourceTree = "<group>"; };
+		2A28E87A1809A6E100F24E81 /* DSCard-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "DSCard-Prefix.pch"; path = "DSCard/DSCard-Prefix.pch"; sourceTree = "<group>"; };
+		2A28E87B1809A6E100F24E81 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = Classes/Core/AppDelegate.h; sourceTree = "<group>"; };
+		2A28E87C1809A6E100F24E81 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = Classes/Core/AppDelegate.m; sourceTree = "<group>"; };
+		2A28E87E1809A6E100F24E81 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = DSCard/Images.xcassets; sourceTree = "<group>"; };
+		2A28E8841809A6E100F24E81 /* DSCardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DSCardTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A28E8851809A6E100F24E81 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		2A28E88D1809A6E100F24E81 /* DSCardTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DSCardTests-Info.plist"; sourceTree = "<group>"; };
+		2A28E88F1809A6E100F24E81 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		2A28E8911809A6E100F24E81 /* DSCardTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DSCardTests.m; sourceTree = "<group>"; };
+		2A28E89F1809A8A800F24E81 /* DSModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DSModel.h; path = Classes/Model/DSModel.h; sourceTree = "<group>"; };
+		2A28E8A01809A8A800F24E81 /* DSModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DSModel.m; path = Classes/Model/DSModel.m; sourceTree = "<group>"; };
+		2A28E8A21809A8CF00F24E81 /* DSData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DSData.h; path = Classes/Model/DSData.h; sourceTree = "<group>"; };
+		2A28E8A31809A8CF00F24E81 /* DSData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DSData.m; path = Classes/Model/DSData.m; sourceTree = "<group>"; };
+		2A28E8A51809A92400F24E81 /* DSView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DSView.h; path = Classes/Core/DSView.h; sourceTree = "<group>"; };
+		2A28E8A61809A92400F24E81 /* DSView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DSView.m; path = Classes/Core/DSView.m; sourceTree = "<group>"; };
+		2A28E8A91809C46400F24E81 /* DSFirstVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DSFirstVC.h; path = Classes/FirstScreen/DSFirstVC.h; sourceTree = "<group>"; };
+		2A28E8AA1809C46400F24E81 /* DSFirstVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DSFirstVC.m; path = Classes/FirstScreen/DSFirstVC.m; sourceTree = "<group>"; };
+		2A28E8AB1809C46400F24E81 /* DSFirstVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = DSFirstVC.xib; path = Classes/FirstScreen/DSFirstVC.xib; sourceTree = "<group>"; };
+		2A28E8AF1809D41400F24E81 /* DSLoginVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DSLoginVC.h; path = Classes/Login/DSLoginVC.h; sourceTree = "<group>"; };
+		2A28E8B01809D41400F24E81 /* DSLoginVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DSLoginVC.m; path = Classes/Login/DSLoginVC.m; sourceTree = "<group>"; };
+		2A28E8B11809D41500F24E81 /* DSLoginVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = DSLoginVC.xib; path = Classes/Login/DSLoginVC.xib; sourceTree = "<group>"; };
+		2A28E8B41809E28C00F24E81 /* gear.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = gear.png; path = DSCard/Resources/gear.png; sourceTree = "<group>"; };
+		2A28E8B61809E30700F24E81 /* DSCard-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "DSCard-Info.plist"; path = "DSCard/Resources/DSCard-Info.plist"; sourceTree = "<group>"; };
+		2A55629B180BF67D0020D287 /* DSFirstVC_iPad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = DSFirstVC_iPad.xib; path = Classes/FirstScreen/DSFirstVC_iPad.xib; sourceTree = "<group>"; };
+		2A55629D180C00C40020D287 /* DSLoginVC_iPad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = DSLoginVC_iPad.xib; path = Classes/Login/DSLoginVC_iPad.xib; sourceTree = "<group>"; };
+		2A884F41180BB6420032815C /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = Settings.bundle; path = DSCard/Resources/Settings.bundle; sourceTree = "<group>"; };
+		2AFD6F4E180A75770059AF11 /* MyriadPro-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "MyriadPro-Bold.otf"; path = "DSCard/Resources/MyriadPro-Bold.otf"; sourceTree = "<group>"; };
+		2AFD6F4F180A75770059AF11 /* MyriadPro-BoldCond.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "MyriadPro-BoldCond.otf"; path = "DSCard/Resources/MyriadPro-BoldCond.otf"; sourceTree = "<group>"; };
+		2AFD6F50180A75770059AF11 /* MyriadPro-BoldCondIt.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "MyriadPro-BoldCondIt.otf"; path = "DSCard/Resources/MyriadPro-BoldCondIt.otf"; sourceTree = "<group>"; };
+		2AFD6F51180A75770059AF11 /* MyriadPro-BoldIt.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "MyriadPro-BoldIt.otf"; path = "DSCard/Resources/MyriadPro-BoldIt.otf"; sourceTree = "<group>"; };
+		2AFD6F52180A75770059AF11 /* MyriadPro-Cond.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "MyriadPro-Cond.otf"; path = "DSCard/Resources/MyriadPro-Cond.otf"; sourceTree = "<group>"; };
+		2AFD6F53180A75770059AF11 /* MyriadPro-CondIt.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "MyriadPro-CondIt.otf"; path = "DSCard/Resources/MyriadPro-CondIt.otf"; sourceTree = "<group>"; };
+		2AFD6F54180A75770059AF11 /* MyriadPro-It.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "MyriadPro-It.otf"; path = "DSCard/Resources/MyriadPro-It.otf"; sourceTree = "<group>"; };
+		2AFD6F55180A75770059AF11 /* MyriadPro-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "MyriadPro-Regular.otf"; path = "DSCard/Resources/MyriadPro-Regular.otf"; sourceTree = "<group>"; };
+		2AFD6F56180A75770059AF11 /* MyriadPro-Semibold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "MyriadPro-Semibold.otf"; path = "DSCard/Resources/MyriadPro-Semibold.otf"; sourceTree = "<group>"; };
+		2AFD6F57180A75770059AF11 /* MyriadPro-SemiboldIt.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "MyriadPro-SemiboldIt.otf"; path = "DSCard/Resources/MyriadPro-SemiboldIt.otf"; sourceTree = "<group>"; };
+		2AFD6F62180AA0180059AF11 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		2AFD6F64180AA0F50059AF11 /* DSAppState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DSAppState.h; path = Classes/Model/DSAppState.h; sourceTree = "<group>"; };
+		2AFD6F65180AA0F50059AF11 /* DSAppState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DSAppState.m; path = Classes/Model/DSAppState.m; sourceTree = "<group>"; };
+		2AFD6F67180AD4050059AF11 /* DSModel+Auth.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "DSModel+Auth.h"; path = "Classes/Model/DSModel+Auth.h"; sourceTree = "<group>"; };
+		2AFD6F68180AD4050059AF11 /* DSModel+Auth.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "DSModel+Auth.m"; path = "Classes/Model/DSModel+Auth.m"; sourceTree = "<group>"; };
+		AEEED1F0180C7E7F002A298B /* DSFirstVC_Retina35.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = DSFirstVC_Retina35.xib; path = Classes/FirstScreen/DSFirstVC_Retina35.xib; sourceTree = "<group>"; };
+		AEEED1F4180C8877002A298B /* DSLoginVC_Retina35.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = DSLoginVC_Retina35.xib; path = Classes/Login/DSLoginVC_Retina35.xib; sourceTree = "<group>"; };
+		D136E3D7180B4F3D001E555B /* Icon120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Icon120.png; path = DSCard/Resources/Icon120.png; sourceTree = "<group>"; };
+		D136E3D9180B4F86001E555B /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-568h@2x.png"; path = "DSCard/Resources/Default-568h@2x.png"; sourceTree = "<group>"; };
+		D136E3DA180B4F86001E555B /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Default.png; path = DSCard/Resources/Default.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2A28E8661809A6E100F24E81 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2AFD6F63180AA0180059AF11 /* CFNetwork.framework in Frameworks */,
+				2A28E86F1809A6E100F24E81 /* CoreGraphics.framework in Frameworks */,
+				2A28E8711809A6E100F24E81 /* UIKit.framework in Frameworks */,
+				2A28E86D1809A6E100F24E81 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A28E8811809A6E100F24E81 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A28E8861809A6E100F24E81 /* XCTest.framework in Frameworks */,
+				2A28E8881809A6E100F24E81 /* UIKit.framework in Frameworks */,
+				2A28E8871809A6E100F24E81 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2A28E8601809A6E100F24E81 = {
+			isa = PBXGroup;
+			children = (
+				2A28E8721809A6E100F24E81 /* Classes */,
+				2A28E89D1809A82100F24E81 /* Other Sources */,
+				2A28E89E1809A83300F24E81 /* Resources */,
+				2A28E88B1809A6E100F24E81 /* DSCardTests */,
+				2A28E86B1809A6E100F24E81 /* Frameworks */,
+				2A28E86A1809A6E100F24E81 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2A28E86A1809A6E100F24E81 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2A28E8691809A6E100F24E81 /* DSCard.app */,
+				2A28E8841809A6E100F24E81 /* DSCardTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2A28E86B1809A6E100F24E81 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2AFD6F62180AA0180059AF11 /* CFNetwork.framework */,
+				2A28E86C1809A6E100F24E81 /* Foundation.framework */,
+				2A28E86E1809A6E100F24E81 /* CoreGraphics.framework */,
+				2A28E8701809A6E100F24E81 /* UIKit.framework */,
+				2A28E8851809A6E100F24E81 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2A28E8721809A6E100F24E81 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				2A28E89B1809A7EE00F24E81 /* Core */,
+				2A28E89C1809A7FC00F24E81 /* Model */,
+				2A28E8A81809C40C00F24E81 /* FirstScreen */,
+				2A28E8AE1809D3E700F24E81 /* Login */,
+			);
+			name = Classes;
+			path = DSCard;
+			sourceTree = "<group>";
+		};
+		2A28E88B1809A6E100F24E81 /* DSCardTests */ = {
+			isa = PBXGroup;
+			children = (
+				2A28E8911809A6E100F24E81 /* DSCardTests.m */,
+				2A28E88C1809A6E100F24E81 /* Supporting Files */,
+			);
+			path = DSCardTests;
+			sourceTree = "<group>";
+		};
+		2A28E88C1809A6E100F24E81 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2A28E88D1809A6E100F24E81 /* DSCardTests-Info.plist */,
+				2A28E88E1809A6E100F24E81 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2A28E89B1809A7EE00F24E81 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				2A28E87B1809A6E100F24E81 /* AppDelegate.h */,
+				2A28E87C1809A6E100F24E81 /* AppDelegate.m */,
+				2A28E8A51809A92400F24E81 /* DSView.h */,
+				2A28E8A61809A92400F24E81 /* DSView.m */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+		2A28E89C1809A7FC00F24E81 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2A28E89F1809A8A800F24E81 /* DSModel.h */,
+				2A28E8A01809A8A800F24E81 /* DSModel.m */,
+				2A28E8A21809A8CF00F24E81 /* DSData.h */,
+				2A28E8A31809A8CF00F24E81 /* DSData.m */,
+				2AFD6F64180AA0F50059AF11 /* DSAppState.h */,
+				2AFD6F65180AA0F50059AF11 /* DSAppState.m */,
+				2AFD6F67180AD4050059AF11 /* DSModel+Auth.h */,
+				2AFD6F68180AD4050059AF11 /* DSModel+Auth.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		2A28E89D1809A82100F24E81 /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				2A28E8781809A6E100F24E81 /* main.m */,
+				2A28E87A1809A6E100F24E81 /* DSCard-Prefix.pch */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		2A28E89E1809A83300F24E81 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				D136E3D7180B4F3D001E555B /* Icon120.png */,
+				D136E3D9180B4F86001E555B /* Default-568h@2x.png */,
+				D136E3DA180B4F86001E555B /* Default.png */,
+				2AFD6F4D180A754B0059AF11 /* Fonts */,
+				2A28E8B61809E30700F24E81 /* DSCard-Info.plist */,
+				2A28E8751809A6E100F24E81 /* InfoPlist.strings */,
+				2A28E8B41809E28C00F24E81 /* gear.png */,
+				2A28E87E1809A6E100F24E81 /* Images.xcassets */,
+				2A884F41180BB6420032815C /* Settings.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		2A28E8A81809C40C00F24E81 /* FirstScreen */ = {
+			isa = PBXGroup;
+			children = (
+				2A28E8A91809C46400F24E81 /* DSFirstVC.h */,
+				2A28E8AA1809C46400F24E81 /* DSFirstVC.m */,
+				2A28E8AB1809C46400F24E81 /* DSFirstVC.xib */,
+				2A55629B180BF67D0020D287 /* DSFirstVC_iPad.xib */,
+				AEEED1F0180C7E7F002A298B /* DSFirstVC_Retina35.xib */,
+			);
+			name = FirstScreen;
+			sourceTree = "<group>";
+		};
+		2A28E8AE1809D3E700F24E81 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				2A28E8AF1809D41400F24E81 /* DSLoginVC.h */,
+				2A28E8B01809D41400F24E81 /* DSLoginVC.m */,
+				2A28E8B11809D41500F24E81 /* DSLoginVC.xib */,
+				2A55629D180C00C40020D287 /* DSLoginVC_iPad.xib */,
+				AEEED1F4180C8877002A298B /* DSLoginVC_Retina35.xib */,
+			);
+			name = Login;
+			sourceTree = "<group>";
+		};
+		2AFD6F4D180A754B0059AF11 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				2AFD6F4E180A75770059AF11 /* MyriadPro-Bold.otf */,
+				2AFD6F4F180A75770059AF11 /* MyriadPro-BoldCond.otf */,
+				2AFD6F50180A75770059AF11 /* MyriadPro-BoldCondIt.otf */,
+				2AFD6F51180A75770059AF11 /* MyriadPro-BoldIt.otf */,
+				2AFD6F52180A75770059AF11 /* MyriadPro-Cond.otf */,
+				2AFD6F53180A75770059AF11 /* MyriadPro-CondIt.otf */,
+				2AFD6F54180A75770059AF11 /* MyriadPro-It.otf */,
+				2AFD6F55180A75770059AF11 /* MyriadPro-Regular.otf */,
+				2AFD6F56180A75770059AF11 /* MyriadPro-Semibold.otf */,
+				2AFD6F57180A75770059AF11 /* MyriadPro-SemiboldIt.otf */,
+			);
+			name = Fonts;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2A28E8681809A6E100F24E81 /* DSCard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2A28E8951809A6E100F24E81 /* Build configuration list for PBXNativeTarget "DSCard" */;
+			buildPhases = (
+				2A28E8651809A6E100F24E81 /* Sources */,
+				2A28E8661809A6E100F24E81 /* Frameworks */,
+				2A28E8671809A6E100F24E81 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DSCard;
+			productName = DSCard;
+			productReference = 2A28E8691809A6E100F24E81 /* DSCard.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2A28E8831809A6E100F24E81 /* DSCardTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2A28E8981809A6E100F24E81 /* Build configuration list for PBXNativeTarget "DSCardTests" */;
+			buildPhases = (
+				2A28E8801809A6E100F24E81 /* Sources */,
+				2A28E8811809A6E100F24E81 /* Frameworks */,
+				2A28E8821809A6E100F24E81 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2A28E88A1809A6E100F24E81 /* PBXTargetDependency */,
+			);
+			name = DSCardTests;
+			productName = DSCardTests;
+			productReference = 2A28E8841809A6E100F24E81 /* DSCardTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2A28E8611809A6E100F24E81 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Wei Jin";
+				TargetAttributes = {
+					2A28E8831809A6E100F24E81 = {
+						TestTargetID = 2A28E8681809A6E100F24E81;
+					};
+				};
+			};
+			buildConfigurationList = 2A28E8641809A6E100F24E81 /* Build configuration list for PBXProject "DSCard" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 2A28E8601809A6E100F24E81;
+			productRefGroup = 2A28E86A1809A6E100F24E81 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2A28E8681809A6E100F24E81 /* DSCard */,
+				2A28E8831809A6E100F24E81 /* DSCardTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2A28E8671809A6E100F24E81 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A28E8771809A6E100F24E81 /* InfoPlist.strings in Resources */,
+				2A28E8B51809E28C00F24E81 /* gear.png in Resources */,
+				2AFD6F5C180A75770059AF11 /* MyriadPro-Cond.otf in Resources */,
+				2AFD6F5A180A75770059AF11 /* MyriadPro-BoldCondIt.otf in Resources */,
+				2AFD6F5D180A75770059AF11 /* MyriadPro-CondIt.otf in Resources */,
+				2AFD6F58180A75770059AF11 /* MyriadPro-Bold.otf in Resources */,
+				2A55629C180BF67D0020D287 /* DSFirstVC_iPad.xib in Resources */,
+				2A28E87F1809A6E100F24E81 /* Images.xcassets in Resources */,
+				2AFD6F60180A75770059AF11 /* MyriadPro-Semibold.otf in Resources */,
+				2AFD6F5B180A75770059AF11 /* MyriadPro-BoldIt.otf in Resources */,
+				AEEED1F5180C8877002A298B /* DSLoginVC_Retina35.xib in Resources */,
+				2A28E8B71809E30700F24E81 /* DSCard-Info.plist in Resources */,
+				2A55629E180C00C40020D287 /* DSLoginVC_iPad.xib in Resources */,
+				2AFD6F5E180A75770059AF11 /* MyriadPro-It.otf in Resources */,
+				D136E3DC180B4F86001E555B /* Default.png in Resources */,
+				2A884F42180BB6420032815C /* Settings.bundle in Resources */,
+				D136E3DB180B4F86001E555B /* Default-568h@2x.png in Resources */,
+				2AFD6F5F180A75770059AF11 /* MyriadPro-Regular.otf in Resources */,
+				D136E3D8180B4F3D001E555B /* Icon120.png in Resources */,
+				2A28E8AD1809C46400F24E81 /* DSFirstVC.xib in Resources */,
+				2AFD6F59180A75770059AF11 /* MyriadPro-BoldCond.otf in Resources */,
+				2A28E8B31809D41500F24E81 /* DSLoginVC.xib in Resources */,
+				2AFD6F61180A75770059AF11 /* MyriadPro-SemiboldIt.otf in Resources */,
+				AEEED1F1180C7E7F002A298B /* DSFirstVC_Retina35.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A28E8821809A6E100F24E81 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A28E8901809A6E100F24E81 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2A28E8651809A6E100F24E81 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2AFD6F66180AA0F50059AF11 /* DSAppState.m in Sources */,
+				2AFD6F69180AD4050059AF11 /* DSModel+Auth.m in Sources */,
+				2A28E8A41809A8CF00F24E81 /* DSData.m in Sources */,
+				2A28E8A11809A8A800F24E81 /* DSModel.m in Sources */,
+				2A28E8B21809D41500F24E81 /* DSLoginVC.m in Sources */,
+				2A28E8AC1809C46400F24E81 /* DSFirstVC.m in Sources */,
+				2A28E87D1809A6E100F24E81 /* AppDelegate.m in Sources */,
+				2A28E8791809A6E100F24E81 /* main.m in Sources */,
+				2A28E8A71809A92400F24E81 /* DSView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A28E8801809A6E100F24E81 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A28E8921809A6E100F24E81 /* DSCardTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2A28E88A1809A6E100F24E81 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2A28E8681809A6E100F24E81 /* DSCard */;
+			targetProxy = 2A28E8891809A6E100F24E81 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2A28E8751809A6E100F24E81 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2A28E8761809A6E100F24E81 /* en */,
+			);
+			name = InfoPlist.strings;
+			path = DSCard;
+			sourceTree = "<group>";
+		};
+		2A28E88E1809A6E100F24E81 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2A28E88F1809A6E100F24E81 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2A28E8931809A6E100F24E81 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2A28E8941809A6E100F24E81 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2A28E8961809A6E100F24E81 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Daniel Steel (7MTR2GNPQS)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Daniel Steel (7MTR2GNPQS)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DSCard/DSCard-Prefix.pch";
+				INFOPLIST_FILE = "DSCard/Resources/DSCard-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		2A28E8971809A6E100F24E81 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Daniel Steel (7MTR2GNPQS)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Daniel Steel (7MTR2GNPQS)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DSCard/DSCard-Prefix.pch";
+				INFOPLIST_FILE = "DSCard/Resources/DSCard-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		2A28E8991809A6E100F24E81 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/DSCard.app/DSCard";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DSCard/DSCard-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "DSCardTests/DSCardTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		2A28E89A1809A6E100F24E81 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/DSCard.app/DSCard";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DSCard/DSCard-Prefix.pch";
+				INFOPLIST_FILE = "DSCardTests/DSCardTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2A28E8641809A6E100F24E81 /* Build configuration list for PBXProject "DSCard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A28E8931809A6E100F24E81 /* Debug */,
+				2A28E8941809A6E100F24E81 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2A28E8951809A6E100F24E81 /* Build configuration list for PBXNativeTarget "DSCard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A28E8961809A6E100F24E81 /* Debug */,
+				2A28E8971809A6E100F24E81 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2A28E8981809A6E100F24E81 /* Build configuration list for PBXNativeTarget "DSCardTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A28E8991809A6E100F24E81 /* Debug */,
+				2A28E89A1809A6E100F24E81 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2A28E8611809A6E100F24E81 /* Project object */;
+}

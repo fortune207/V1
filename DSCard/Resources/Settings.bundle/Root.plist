@@ -1,0 +1,364 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Stations List</key>
+	<array>
+		<string>Action Town</string>
+		<string>Action Central</string>
+		<string>Aldgate</string>
+		<string>Aldgate East</string>
+		<string>Alperton</string>
+		<string>Amersham</string>
+		<string>Angel</string>
+		<string>Archway</string>
+		<string>Arnos Grove</string>
+		<string>Arsenal</string>
+		<string>Baker Street</string>
+		<string>Balham</string>
+		<string>Bank</string>
+		<string>Barbican</string>
+		<string>Barking</string>
+		<string>Barkingside</string>
+		<string>Barons Court</string>
+		<string>Bayswater</string>
+		<string>Becontree</string>
+		<string>Belsize Park</string>
+		<string>Bermondsey</string>
+		<string>Bethnal Green</string>
+		<string>Blackfriars</string>
+		<string>Blackhorse Road</string>
+		<string>Bond Street</string>
+		<string>Borough</string>
+		<string>Boston Manor</string>
+		<string>Bounds Green</string>
+		<string>Bow Road</string>
+		<string>Brent Cross</string>
+		<string>Brixton</string>
+		<string>Bromley-by-Bow</string>
+		<string>Brondesbury</string>
+		<string>Brondesbury Park</string>
+		<string>Buckhurst Hill</string>
+		<string>Burnt Oak</string>
+		<string>Caledonian Road</string>
+		<string>Caledonian Road &amp; Barnesbury</string>
+		<string>Camden Road</string>
+		<string>Camden Town</string>
+		<string>Canada Water</string>
+		<string>Canary Wharf</string>
+		<string>Cannon Street</string>
+		<string>Canonbury</string>
+		<string>Canons Park</string>
+		<string>Chalfont &amp; Latimer</string>
+		<string>Chalk Farm</string>
+		<string>Chancery Lane</string>
+		<string>Charing Cross</string>
+		<string>Chesham</string>
+		<string>Chigwell</string>
+		<string>Chiswick Park</string>
+		<string>Chorleywood</string>
+		<string>City Thameslink</string>
+		<string>Clapham Common</string>
+		<string>Clapham North</string>
+		<string>Clapham South</string>
+		<string>Cockfosters</string>
+		<string>Colindale</string>
+		<string>Colliers Wood</string>
+		<string>Covent Garden</string>
+		<string>Croxley</string>
+		<string>Dagenham East</string>
+		<string>Dagenham Heathway</string>
+		<string>Dalston Kingsland</string>
+		<string>Debden</string>
+		<string>Dollis Hill</string>
+		<string>Ealing Broadway</string>
+		<string>Ealing Common</string>
+		<string>Earl&apos;s Court</string>
+		<string>East Acton</string>
+		<string>East Finchley</string>
+		<string>East Ham</string>
+		<string>East Putney</string>
+		<string>Eastcote</string>
+		<string>Edgware</string>
+		<string>Edgware Road (Bakerloo Line)</string>
+		<string>Edgware Road (Circle Line)</string>
+		<string>Elephant &amp; Castle</string>
+		<string>Elm Park</string>
+		<string>Embankment</string>
+		<string>Epping</string>
+		<string>Euston</string>
+		<string>Euston Square</string>
+		<string>Fairlop</string>
+		<string>Farringdon</string>
+		<string>Finchley Central</string>
+		<string>Finchley Road</string>
+		<string>Finchley Road and Frognal</string>
+		<string>Finsbury Park</string>
+		<string>Fulham Broadway</string>
+		<string>Gants Hill</string>
+		<string>Gloucester Road</string>
+		<string>Golders Green</string>
+		<string>Goldhawk Road</string>
+		<string>Goodge Street</string>
+		<string>Gospel Oak</string>
+		<string>Grange Hill</string>
+		<string>Great Portland Street</string>
+		<string>Greenford</string>
+		<string>Gunnersbury</string>
+		<string>Green Park</string>
+		<string>Hackney Central</string>
+		<string>Hackney Wick</string>
+		<string>Hainault</string>
+		<string>Hammersmith (Dist&amp;Picc Line)</string>
+		<string>Hammersmith (H&amp;C Line)</string>
+		<string>Hampstead</string>
+		<string>Hampstead Heath</string>
+		<string>Hanger Lane</string>
+		<string>Harlesden</string>
+		<string>Harrow &amp; Wealdstone</string>
+		<string>Harrow-on-the-Hill</string>
+		<string>Hatton Cross</string>
+		<string>Heathrow Terminals 1-2-3</string>
+		<string>Heathrow Terminal 4</string>
+		<string>Hendon Central</string>
+		<string>High Barnet</string>
+		<string>High Street Kensington</string>
+		<string>Highbury &amp; Islington</string>
+		<string>Highgate</string>
+		<string>Hillingdon</string>
+		<string>Holborn</string>
+		<string>Holland Park</string>
+		<string>Holloway Road</string>
+		<string>Homerton</string>
+		<string>Hornchurch</string>
+		<string>Hounslow Central</string>
+		<string>Hounslow East</string>
+		<string>Hounslow West</string>
+		<string>Hyde Park Corner</string>
+		<string>Ickenham</string>
+		<string>Kennington</string>
+		<string>Kensal Green</string>
+		<string>Kensal Rise</string>
+		<string>Kensington (Olympia)</string>
+		<string>Kentish Town</string>
+		<string>Kentish Town West</string>
+		<string>Kenton</string>
+		<string>Kew Gardens</string>
+		<string>Kilburn</string>
+		<string>Kilburn Park</string>
+		<string>King&apos;s Cross St.Pancras</string>
+		<string>King&apos;s Cross Thameslink</string>
+		<string>Kingsbury</string>
+		<string>Knightsbridge</string>
+		<string>Ladbroke Grove</string>
+		<string>Lambeth North</string>
+		<string>Lancaster Gate</string>
+		<string>Latimer Road</string>
+		<string>Leicester Square</string>
+		<string>Leyton</string>
+		<string>Leytonstone</string>
+		<string>Liverpool Street</string>
+		<string>London Bridge</string>
+		<string>Loughton</string>
+		<string>Maida Vale</string>
+		<string>Manor House</string>
+		<string>Mansion House</string>
+		<string>Marble Arch</string>
+		<string>Marylebone</string>
+		<string>Mile End</string>
+		<string>Mill Hill East</string>
+		<string>Monument</string>
+		<string>Moor Park</string>
+		<string>Moorgate</string>
+		<string>Morden</string>
+		<string>Mornington Crescent</string>
+		<string>Neasden</string>
+		<string>New Cross</string>
+		<string>New Cross Gate</string>
+		<string>Newbury Park</string>
+		<string>North Acton</string>
+		<string>North Ealing</string>
+		<string>North Greenwich</string>
+		<string>North Harrow</string>
+		<string>North Wembley</string>
+		<string>Northfields</string>
+		<string>Northolt</string>
+		<string>Northolt</string>
+		<string>Northwick Park</string>
+		<string>Northwood</string>
+		<string>Northwood Hills</string>
+		<string>Notting Hill Gate</string>
+		<string>Oakwood</string>
+		<string>Old Street</string>
+		<string>Osterley</string>
+		<string>Oval</string>
+		<string>Oxford Circus</string>
+		<string>Paddington</string>
+		<string>Paddington (H&amp;C Line)</string>
+		<string>Park Royal</string>
+		<string>Parsons Green</string>
+		<string>Perivale</string>
+		<string>Piccadilly Circus</string>
+		<string>Pimlico</string>
+		<string>Pinner</string>
+		<string>Plaistow</string>
+		<string>Preston Road</string>
+		<string>Putney Bridge</string>
+		<string>Queen&apos;s Park</string>
+		<string>Queensbury</string>
+		<string>Queensway</string>
+		<string>Ravenscourt Park</string>
+		<string>Rayners Lane</string>
+		<string>Redbridge</string>
+		<string>Regent&apos;s Park</string>
+		<string>Richmond</string>
+		<string>Rickmansworth</string>
+		<string>Roding Valley</string>
+		<string>Rotherhithe</string>
+		<string>Royal Oak</string>
+		<string>Ruislip</string>
+		<string>Ruislip Gardens</string>
+		<string>Ruislip Manor</string>
+		<string>Russell Square</string>
+		<string>St.James&apos;s Park</string>
+		<string>Seven Sisters</string>
+		<string>Shadwell</string>
+		<string>Shepherd&apos;s Bush</string>
+		<string>Shepherd&apos;s Bush Market</string>
+		<string>Sloane Square</string>
+		<string>Snaresbrook</string>
+		<string>South Acton</string>
+		<string>South Ealing</string>
+		<string>South Harrow</string>
+		<string>South Kensington</string>
+		<string>South Kenton</string>
+		<string>South Ruislip</string>
+		<string>South Wimbledon</string>
+		<string>South Woodford</string>
+		<string>Southfields</string>
+		<string>Southgate</string>
+		<string>Southwark</string>
+		<string>St.John&apos;s Wood</string>
+		<string>St.Paul&apos;s</string>
+		<string>Stamford Brook</string>
+		<string>Stanmore</string>
+		<string>Stepney Green</string>
+		<string>Stockwell</string>
+		<string>Stonebridge Park</string>
+		<string>Stratford</string>
+		<string>Sudbury Hill</string>
+		<string>Sudbury Town</string>
+		<string>Surrey Quays</string>
+		<string>Swiss Cottage</string>
+		<string>Temple</string>
+		<string>Theydon Bois</string>
+		<string>Tooting Bec</string>
+		<string>Tooting Broadway</string>
+		<string>Tottenham Court Road</string>
+		<string>Tottenham Hale</string>
+		<string>Totteridge &amp; Whetstone</string>
+		<string>Tower Hill</string>
+		<string>Tufnell Park</string>
+		<string>Turnham Green	</string>
+		<string>Turnpike Lane</string>
+		<string>Upminster</string>
+		<string>Upminster Bridge</string>
+		<string>Upney</string>
+		<string>Upton Park</string>
+		<string>Uxbridge</string>
+		<string>Vauxhall</string>
+		<string>Victoria</string>
+		<string>Walthamstow Central</string>
+		<string>Wanstead</string>
+		<string>Wapping</string>
+		<string>Warren Street</string>
+		<string>Warwick Avenue</string>
+		<string>Waterloo</string>
+		<string>Watford</string>
+		<string>Wembley Central</string>
+		<string>Wembley Park</string>
+		<string>West Acton</string>
+		<string>West Brompton</string>
+		<string>West Finchley</string>
+		<string>West Ham</string>
+		<string>West Hampstead</string>
+		<string>West Harrow</string>
+		<string>West Kensington</string>
+		<string>West Ruislip</string>
+		<string>Westbourne Park</string>
+		<string>Westminster</string>
+		<string>White City</string>
+		<string>Whitechapel</string>
+		<string>Willesden Green</string>
+		<string>Willesden Junction</string>
+		<string>Wimbledon</string>
+		<string>Wimbledon Park</string>
+		<string>Wood Green</string>
+		<string>Woodford</string>
+		<string>Woodside Park</string>
+	</array>
+	<key>PreferenceSpecifiers</key>
+	<array>
+		<dict>
+			<key>Type</key>
+			<string>PSChildPaneSpecifier</string>
+			<key>Title</key>
+			<string></string>
+			<key>File</key>
+			<string></string>
+		</dict>
+		<dict>
+			<key>Title</key>
+			<string>Group</string>
+			<key>Type</key>
+			<string>PSGroupSpecifier</string>
+		</dict>
+		<dict>
+			<key>AutocapitalizationType</key>
+			<string>None</string>
+			<key>AutocorrectionType</key>
+			<string>No</string>
+			<key>DefaultValue</key>
+			<string></string>
+			<key>IsSecure</key>
+			<false/>
+			<key>Key</key>
+			<string>name_preference</string>
+			<key>KeyboardType</key>
+			<string>Alphabet</string>
+			<key>Title</key>
+			<string>Name</string>
+			<key>Type</key>
+			<string>PSTextFieldSpecifier</string>
+		</dict>
+		<dict>
+			<key>DefaultValue</key>
+			<true/>
+			<key>Key</key>
+			<string>enabled_preference</string>
+			<key>Title</key>
+			<string>Enabled</string>
+			<key>Type</key>
+			<string>PSToggleSwitchSpecifier</string>
+		</dict>
+		<dict>
+			<key>DefaultValue</key>
+			<real>0.5</real>
+			<key>Key</key>
+			<string>slider_preference</string>
+			<key>MaximumValue</key>
+			<integer>1</integer>
+			<key>MaximumValueImage</key>
+			<string></string>
+			<key>MinimumValue</key>
+			<integer>0</integer>
+			<key>MinimumValueImage</key>
+			<string></string>
+			<key>Type</key>
+			<string>PSSliderSpecifier</string>
+		</dict>
+	</array>
+	<key>StringsTable</key>
+	<string>Root</string>
+</dict>
+</plist>

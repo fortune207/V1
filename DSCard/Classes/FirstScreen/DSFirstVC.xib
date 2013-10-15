@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="4510" systemVersion="12F37" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3742"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="DSFirstVC">
+            <connections>
+                <outlet property="btnShowFare" destination="Tdb-BM-6gE" id="VoT-IS-PdY"/>
+                <outlet property="detailView" destination="meO-CT-6Ae" id="ez3-UY-7wq"/>
+                <outlet property="lblMoney" destination="daK-al-dAo" id="Y8Y-gU-CKu"/>
+                <outlet property="lblMoneyOffPeak" destination="WRR-t0-UOY" id="tcf-bY-2ua"/>
+                <outlet property="lblMoneyPeak" destination="lk6-tH-IpO" id="V6H-8G-Ecy"/>
+                <outlet property="lblOffPeak" destination="eXQ-34-r2O" id="iIA-P6-KNv"/>
+                <outlet property="lblPeak" destination="hwc-CP-ED3" id="Fr9-Fg-5Ev"/>
+                <outlet property="lblPound" destination="71a-fb-fQF" id="WwU-1i-ZQH"/>
+                <outlet property="lblTitle" destination="V8e-4b-Agw" id="e3O-WB-zQm"/>
+                <outlet property="pickerStations" destination="ZfU-gu-0Q5" id="os0-sy-hev"/>
+                <outlet property="text1" destination="XBm-xE-IxC" id="X8E-xp-69y"/>
+                <outlet property="text2" destination="ZYz-Qe-bOY" id="I9B-GB-Tqz"/>
+                <outlet property="view" destination="1" id="3"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="1">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="zYz-XB-49P">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="283"/>
+                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                    <subviews>
+                        <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="£" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="71a-fb-fQF">
+                            <rect key="frame" x="32" y="96" width="43" height="92"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <fontDescription key="fontDescription" name="Verdana-Bold" family="Verdana" pointSize="60"/>
+                            <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="0.00" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="320" translatesAutoresizingMaskIntoConstraints="NO" id="daK-al-dAo">
+                            <rect key="frame" x="20" y="83" width="320" height="118"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <fontDescription key="fontDescription" name="Verdana-Bold" family="Verdana" pointSize="60"/>
+                            <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="vm9-vc-boL">
+                            <rect key="frame" x="276" y="241" width="32" height="32"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                            <state key="normal" image="gear.png"/>
+                            <connections>
+                                <action selector="onSettings:" destination="-1" eventType="touchUpInside" id="ZtL-Dz-H12"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" red="0.039215686274509803" green="0.12941176470588234" blue="0.6470588235294118" alpha="1" colorSpace="calibratedRGB"/>
+                </view>
+                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Journey Calculator" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="V8e-4b-Agw">
+                    <rect key="frame" x="0.0" y="281" width="320" height="72"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <fontDescription key="fontDescription" name="Verdana" family="Verdana" pointSize="28"/>
+                    <color key="textColor" red="0.094117647058823528" green="0.62352941176470589" blue="0.83529411764705885" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" placeholderIntrinsicWidth="280" placeholderIntrinsicHeight="30" contentHorizontalAlignment="left" contentVerticalAlignment="top" borderStyle="roundedRect" placeholder="Traveling From" adjustsFontSizeToFit="NO" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="XBm-xE-IxC">
+                    <rect key="frame" x="20" y="361" width="280" height="30"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <rect key="contentStretch" x="0.050000000000000017" y="0.0" width="1" height="1"/>
+                    <color key="textColor" red="0.094117647060000004" green="0.62352941179999999" blue="0.83529411760000005" alpha="1" colorSpace="calibratedRGB"/>
+                    <fontDescription key="fontDescription" name="Verdana" family="Verdana" pointSize="30"/>
+                    <textInputTraits key="textInputTraits"/>
+                    <connections>
+                        <outlet property="delegate" destination="-1" id="Sen-33-u3i"/>
+                    </connections>
+                </textField>
+                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Oxford Circus" adjustsFontSizeToFit="NO" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="ZYz-Qe-bOY">
+                    <rect key="frame" x="20" y="415" width="280" height="30"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <rect key="contentStretch" x="0.050000000000000017" y="0.0" width="1" height="1"/>
+                    <color key="textColor" red="0.094117647058823528" green="0.62352941176470589" blue="0.83529411764705885" alpha="1" colorSpace="calibratedRGB"/>
+                    <fontDescription key="fontDescription" name="Verdana" family="Verdana" pointSize="30"/>
+                    <textInputTraits key="textInputTraits"/>
+                    <connections>
+                        <outlet property="delegate" destination="-1" id="sAO-ps-zZv"/>
+                    </connections>
+                </textField>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Tdb-BM-6gE">
+                    <rect key="frame" x="64" y="480" width="192" height="62"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <color key="backgroundColor" red="0.094117647058823528" green="0.62352941176470589" blue="0.83529411764705885" alpha="1" colorSpace="calibratedRGB"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                    <state key="normal" title="Show Fare">
+                        <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="onShowFare:" destination="-1" eventType="touchUpInside" id="8b6-hy-9PI"/>
+                    </connections>
+                </button>
+                <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="meO-CT-6Ae">
+                    <rect key="frame" x="0.0" y="462" width="320" height="86"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <subviews>
+                        <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Oyster" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eXQ-34-r2O">
+                            <rect key="frame" x="57" y="19" width="75" height="35"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <fontDescription key="fontDescription" name="Verdana" family="Verdana" pointSize="20"/>
+                            <color key="textColor" red="0.094117647060000004" green="0.62352941179999999" blue="0.83529411760000005" alpha="1" colorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Cash" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hwc-CP-ED3">
+                            <rect key="frame" x="197" y="19" width="54" height="35"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <fontDescription key="fontDescription" name="Verdana" family="Verdana" pointSize="20"/>
+                            <color key="textColor" red="0.094117647060000004" green="0.62352941179999999" blue="0.83529411760000005" alpha="1" colorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="£0.00" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="66" translatesAutoresizingMaskIntoConstraints="NO" id="WRR-t0-UOY">
+                            <rect key="frame" x="63" y="51" width="66" height="31"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <fontDescription key="fontDescription" name="Verdana-Bold" family="Verdana" pointSize="20"/>
+                            <color key="textColor" red="0.074509803921568626" green="0.59999999999999998" blue="0.82745098039215681" alpha="1" colorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="£0.00" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="72" translatesAutoresizingMaskIntoConstraints="NO" id="lk6-tH-IpO">
+                            <rect key="frame" x="196" y="51" width="72" height="31"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <fontDescription key="fontDescription" name="Verdana-Bold" family="Verdana" pointSize="20"/>
+                            <color key="textColor" red="0.094117647060000004" green="0.62352941179999999" blue="0.83529411760000005" alpha="1" colorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <simulatedStatusBarMetrics key="simulatedStatusBarMetrics"/>
+            <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+        </view>
+        <pickerView contentMode="scaleToFill" id="ZfU-gu-0Q5">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="162"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+            <connections>
+                <outlet property="dataSource" destination="-1" id="tAY-lO-JEV"/>
+                <outlet property="delegate" destination="-1" id="dqw-Su-zpJ"/>
+            </connections>
+        </pickerView>
+    </objects>
+    <resources>
+        <image name="gear.png" width="39" height="39"/>
+    </resources>
+</document>
