@@ -13,6 +13,7 @@
 #import "DSData.h"
 #import "DSModel.h"
 #import "DSAppState.h"
+#import "MBProgressHUD.h"
 
 @implementation DSFirstVC
 
@@ -110,6 +111,28 @@
 {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+// ---------------------------------------------------------------------------------------
+// showProgress -
+// ---------------------------------------------------------------------------------------
+- (void) showProgress
+{
+    if (debugLoginVC) NSLog(@"DSFirstVC showProgress");
+    
+    hud = [MBProgressHUD showHUDAddedTo:self.view animated:YES];
+    hud.mode = MBProgressHUDModeIndeterminate;
+    hud.labelText = @"Loading Data...";
+}
+
+// ---------------------------------------------------------------------------------------
+// hideProgress -
+// ---------------------------------------------------------------------------------------
+- (void) hideProgress
+{
+    if (debugLoginVC) NSLog(@"DSFirstVC hideProgress");
+    
+    [hud hide:YES];
 }
 
 // ---------------------------------------------------------------------------------------

@@ -9,6 +9,8 @@
 #import "DSModel+Auth.h"
 #import "DSModel.h"
 #import "DSView.h"
+#import "DSLoginVC.h"
+#import "DSFirstVC.h"
 #import "DSData.h"
 #import "DSAppState.h"
 #import <CFNetwork/CFNetwork.h>
@@ -51,6 +53,8 @@
         
         // Show network activity indicator
         [UIApplication sharedApplication].networkActivityIndicatorVisible = YES;
+        
+        [view.loginVC showProgress];
     }
 }
 
@@ -87,6 +91,8 @@
             
             // Show network activity indicator
             [UIApplication sharedApplication].networkActivityIndicatorVisible = YES;
+            
+            [view.firstVC showProgress];
         }
     }
     
@@ -221,6 +227,8 @@
     // Checking log in status
     if (request_type == REQUEST_TYPE_LOGIN)
     {
+        [self.view.loginVC hideProgress];
+        
         // Log in fails
         if (![self extractCurrentBalance])
         {
@@ -248,6 +256,8 @@
     // Getting fares
     else if (request_type == REQUEST_TYPE_POST_FARE)
     {
+        [view.firstVC hideProgress];
+        
         [self extractFares];
         
         [view showFares];

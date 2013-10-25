@@ -27,6 +27,8 @@
 }
 
 @property (nonatomic, retain) DSModel *model;
+@property (nonatomic, retain) DSLoginVC *loginVC;
+@property (nonatomic, retain) DSFirstVC *firstVC;
 
 -(id) initWithModel:(DSModel *) some_model;
 -(void) gotologinScreen;

@@ -11,6 +11,7 @@
 #import "DSModel.h"
 #import "DSAppState.h"
 #import "DSData.h"
+#import "MBProgressHUD.h"
 
 @implementation DSLoginVC
 
@@ -95,6 +96,28 @@
 {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+// ---------------------------------------------------------------------------------------
+// showProgress -
+// ---------------------------------------------------------------------------------------
+- (void) showProgress
+{
+    if (debugLoginVC) NSLog(@"DSLoginVC showProgress");
+    
+    hud = [MBProgressHUD showHUDAddedTo:self.view animated:YES];
+    hud.mode = MBProgressHUDModeIndeterminate;
+    hud.labelText = @"Signing In...";
+}
+
+// ---------------------------------------------------------------------------------------
+// hideProgress -
+// ---------------------------------------------------------------------------------------
+- (void) hideProgress
+{
+    if (debugLoginVC) NSLog(@"DSLoginVC hideProgress");
+    
+    [hud hide:YES];
 }
 
 // ---------------------------------------------------------------------------------------

@@ -46,6 +46,7 @@
 		2AFD6F69180AD4050059AF11 /* DSModel+Auth.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AFD6F68180AD4050059AF11 /* DSModel+Auth.m */; };
 		AEEED1F1180C7E7F002A298B /* DSFirstVC_Retina35.xib in Resources */ = {isa = PBXBuildFile; fileRef = AEEED1F0180C7E7F002A298B /* DSFirstVC_Retina35.xib */; };
 		AEEED1F5180C8877002A298B /* DSLoginVC_Retina35.xib in Resources */ = {isa = PBXBuildFile; fileRef = AEEED1F4180C8877002A298B /* DSLoginVC_Retina35.xib */; };
+		AEF64C54181A683C00443E63 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = AEF64C53181A683C00443E63 /* MBProgressHUD.m */; };
 		D136E3D8180B4F3D001E555B /* Icon120.png in Resources */ = {isa = PBXBuildFile; fileRef = D136E3D7180B4F3D001E555B /* Icon120.png */; };
 		D136E3DB180B4F86001E555B /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D136E3D9180B4F86001E555B /* Default-568h@2x.png */; };
 		D136E3DC180B4F86001E555B /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = D136E3DA180B4F86001E555B /* Default.png */; };
@@ -111,6 +112,8 @@
 		2AFD6F68180AD4050059AF11 /* DSModel+Auth.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "DSModel+Auth.m"; path = "Classes/Model/DSModel+Auth.m"; sourceTree = "<group>"; };
 		AEEED1F0180C7E7F002A298B /* DSFirstVC_Retina35.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = DSFirstVC_Retina35.xib; path = Classes/FirstScreen/DSFirstVC_Retina35.xib; sourceTree = "<group>"; };
 		AEEED1F4180C8877002A298B /* DSLoginVC_Retina35.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = DSLoginVC_Retina35.xib; path = Classes/Login/DSLoginVC_Retina35.xib; sourceTree = "<group>"; };
+		AEF64C52181A683C00443E63 /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MBProgressHUD.h; path = Classes/ProgressBar/MBProgressHUD.h; sourceTree = "<group>"; };
+		AEF64C53181A683C00443E63 /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MBProgressHUD.m; path = Classes/ProgressBar/MBProgressHUD.m; sourceTree = "<group>"; };
 		D136E3D7180B4F3D001E555B /* Icon120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Icon120.png; path = DSCard/Resources/Icon120.png; sourceTree = "<group>"; };
 		D136E3D9180B4F86001E555B /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-568h@2x.png"; path = "DSCard/Resources/Default-568h@2x.png"; sourceTree = "<group>"; };
 		D136E3DA180B4F86001E555B /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Default.png; path = DSCard/Resources/Default.png; sourceTree = "<group>"; };
@@ -181,6 +184,7 @@
 				2A28E89C1809A7FC00F24E81 /* Model */,
 				2A28E8A81809C40C00F24E81 /* FirstScreen */,
 				2A28E8AE1809D3E700F24E81 /* Login */,
+				AEF64C51181A682500443E63 /* ProgressBar */,
 			);
 			name = Classes;
 			path = DSCard;
@@ -294,6 +298,15 @@
 				2AFD6F57180A75770059AF11 /* MyriadPro-SemiboldIt.otf */,
 			);
 			name = Fonts;
+			sourceTree = "<group>";
+		};
+		AEF64C51181A682500443E63 /* ProgressBar */ = {
+			isa = PBXGroup;
+			children = (
+				AEF64C52181A683C00443E63 /* MBProgressHUD.h */,
+				AEF64C53181A683C00443E63 /* MBProgressHUD.m */,
+			);
+			name = ProgressBar;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -420,6 +433,7 @@
 				2A28E8B21809D41500F24E81 /* DSLoginVC.m in Sources */,
 				2A28E8AC1809C46400F24E81 /* DSFirstVC.m in Sources */,
 				2A28E87D1809A6E100F24E81 /* AppDelegate.m in Sources */,
+				AEF64C54181A683C00443E63 /* MBProgressHUD.m in Sources */,
 				2A28E8791809A6E100F24E81 /* main.m in Sources */,
 				2A28E8A71809A92400F24E81 /* DSView.m in Sources */,
 			);

@@ -17,6 +17,8 @@
 @implementation DSView
 
 @synthesize model;
+@synthesize loginVC;
+@synthesize firstVC;
 
 // ---------------------------------------------------------------------------------------
 // initWithModel -

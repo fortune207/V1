@@ -9,12 +9,15 @@
 #import <UIKit/UIKit.h>
 
 @class DSView;
+@class MBProgressHUD;
 
 @interface DSLoginVC : UIViewController <UITextFieldDelegate>
 {
     DSView *viewDelegate;
     
     UITextField *currentText;
+    
+    MBProgressHUD *hud;
 }
 
 @property (weak, nonatomic) IBOutlet UITextField *txtLogin;
@@ -26,6 +29,8 @@
 @property (weak, nonatomic) IBOutlet UILabel *lblDesc2;
 
 - (id) initWithView:(DSView *)delegate;
+- (void) showProgress;
+- (void) hideProgress;
 
 - (IBAction)onLogin:(id)sender;
 - (IBAction)onDone:(id)sender;

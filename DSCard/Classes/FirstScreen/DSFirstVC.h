@@ -9,6 +9,7 @@
 #import <UIKit/UIKit.h>
 
 @class DSView;
+@class MBProgressHUD;
 
 @interface DSFirstVC : UIViewController <UITextFieldDelegate, UIPickerViewDataSource,
                         UIPickerViewDelegate>
@@ -17,6 +18,8 @@
     
     // current textfield in editing
     UITextField *currentText;
+    
+    MBProgressHUD *hud;
 }
 
 @property (weak, nonatomic) IBOutlet UILabel *lblPound;
@@ -34,6 +37,8 @@
 
 - (id) initWithView:(DSView *)delegate;
 -(void)toggleDetailView;
+- (void) showProgress;
+- (void) hideProgress;
 
 - (IBAction)onSettings:(id)sender;
 - (IBAction)onShowFare:(id)sender;
