@@ -44,10 +44,13 @@
                        delegate:self];
     
     // Check conenction
-    if (!page_connection) {
+    if (!page_connection)
+    {
         NSLog(@"ERROR: in URL connection setup");
         
-    } else {
+    }
+    else
+    {
         
         request_type = REQUEST_TYPE_LOGIN;
         

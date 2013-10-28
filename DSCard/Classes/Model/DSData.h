@@ -11,7 +11,7 @@
 // --------------------------------------------------------------------------------------
 // Debug constants to turn on debug console messages
 // --------------------------------------------------------------------------------------
-static const int debugView = 0;
+static const int debugView = 1;
 static const int debugModel = 0;
 static const int debugFirstVC = 0;
 static const int debugLoginVC = 0;

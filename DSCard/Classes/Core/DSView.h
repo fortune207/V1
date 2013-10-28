@@ -23,7 +23,6 @@
     DSLoginVC *loginVC;
     
     UIAlertView *generalalert;
-    
 }
 
 @property (nonatomic, retain) DSModel *model;

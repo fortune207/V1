@@ -13,6 +13,7 @@
 #import "DSFirstVC.h"
 #import "DSLoginVC.h"
 #import "DSModel+Auth.h"
+#import "MBProgressHUD.h"
 
 @implementation DSView
 
@@ -59,6 +60,11 @@
         window.rootViewController = nc;
         
         [window makeKeyAndVisible];
+        
+        if( [model.appstate.login isEqualToString:@""] == NO )
+        {
+            [model doLogin];
+        }
     }
     
     return self;
@@ -153,6 +159,5 @@
     
     [firstVC toggleDetailView];
 }
-
 
 @end
